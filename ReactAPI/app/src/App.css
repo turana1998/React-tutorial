@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+
+.wrapper__img img {
+  max-width: 500px;
+}

@@ -1,0 +1,130 @@
+.search__movie__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search__movie__content {
+    position: relative;
+    /* max-width: 280px; */
+    height: 160px;
+    transition: transform .3s, -webkit-transform .3s;
+    padding: 5px;
+}
+
+.single__post__movie {
+    display: block;
+}
+
+.search__movie__content__overlay {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    transition: all .6s ease;
+}
+
+.search__movie__content__img img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.search__movie__content:hover .search__movie__content__details {
+    opacity: 1;
+}
+
+.search__movie__content:hover .search__movie__content__overlay {
+    opacity: 1;
+}
+
+.search__movie__content__details {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: opacity .3s ease-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    padding-bottom: 30px;
+}
+
+.search__movie__content__title {
+    color: #fff;
+    font-weight: 700;
+    margin: 0px;
+    letter-spacing: .5px;
+    font-size: 9px;
+}
+
+.search__movie__content__subinfo {
+    display: flex;
+    color: #fff;
+    font-size: 9px;
+    text-shadow: 2px 1px 2px #000;
+}
+
+.movie__green {
+    color: #40b95f;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.movie__rate {
+    border: 1px solid #fff;
+    padding: 0 2px;
+    margin-right: 5px;
+}
+
+.movie__duration {
+    font-weight: 700;
+}
+
+.search__movie__options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 20;
+    opacity: 0.6;
+}
+
+.search__movie__options__btn {
+    color: #000;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.movie__options__icon {
+    display: inline-flex;
+    position: relative;
+    min-width: 1em;
+    min-height: 1em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: #141414;
+    background-color: antiquewhite;
+    font-size: 1.6em;
+    line-height: inherit;
+    box-sizing: border-box;
+}

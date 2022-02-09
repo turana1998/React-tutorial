@@ -1,0 +1,49 @@
+.movie-detail {
+    width: 100%;
+    color: #e5e5e5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 4%;
+}
+
+.movie__subdetail {
+    height: 100%;
+    padding-left: 30px;
+}
+
+.movie-detail__title {
+    font-size: 2em;
+    margin: .67em 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.movie__rating {
+    font-size: 17px;
+    letter-spacing: .75px;
+    padding-bottom: 8px;
+    line-height: 1.25;
+}
+
+.movie__start {
+    font-size: 17px;
+    letter-spacing: .75px;
+    padding-bottom: 8px;
+    line-height: 1.25;
+}
+
+.movie__genre {
+    font-size: 17px;
+    letter-spacing: .75px;
+    padding-bottom: 8px;
+    line-height: 1.25;
+}
+
+.movie__overview {
+    font-size: 17px;
+    letter-spacing: .75px;
+    padding-bottom: 8px;
+    line-height: 1.25;
+}
